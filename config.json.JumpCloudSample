@@ -24,5 +24,13 @@
     "group_AttributeForName": "cn",
     "user_AttributeForName": "cn"
   }
+  "sync": {
+    "matrix" : [
+      [ "LDAPGroup1", "GitLabGroup", "GUEST"],
+      [ "LDAPGroup2", "GitLabGroup", "DEVELOPER"],
+      [ "LDAPGroup3", "GitLabGroup", "MAINTAINER"],
+      [ "LDAPGroup3", "GitLabGroup2", "MAINTAINER"]
+    ]
+  }
 }
 
